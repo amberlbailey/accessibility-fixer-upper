@@ -13,11 +13,11 @@
 <body>
 
   <ul class="skip-links">
-    <li><a href="#about">Jump to About</a></li>
-    <li><a href="#shrubs">Jump to shrubs</a></li>
-    <li><a href="#prices">Jump to prices</a></li>
-    <li><a href="#news">Jump to news</a></li>
-    <li><a href="#contact">Jump to contact</a></li>
+    <li><a href="#about">Jump to about content</a></li>
+    <li><a href="#shrubs">Jump to shrubs content</a></li>
+    <li><a href="#prices">Jump to prices content</a></li>
+    <li><a href="#news">Jump to news content</a></li>
+    <li><a href="#contact">Jump to contact content</a></li>
     <li><a href="#main">Jump to main content</a></li>
     <li><a href="#nav">Jump to navigation</a></li>
   </ul>
@@ -43,7 +43,7 @@
     </div>
 
     <div>
-      <div class="about push" id="about">
+      <div class="about-content">
         <div class="embed embed-24by10">
           <img class="embed-item" src="images/shrubs.jpg" alt="">
         </div>
@@ -56,27 +56,27 @@
         </div>
       </div>
 
-      <section id="shrubs">
+      <section class="gutter-1-2" id="shrubs">
         <div class="wrapper gutter-1-2">
           <h2 class="push-0 color-brand-dark">Products</h2>
           <p class="mega max-length">If you do not tell us where we can buy a shrubbery, my friend and I will say… we will say… “nee”.</p>
           <ul class="grid list-group">
             <li class="unit [ xs-1 s-1 m-1-2 l-1-3 ]">
-              <img class="img-flex push" src="images/shrub-1.jpg" alt="Photo of a grassy shrub" aria-details="shrub">
+              <img class="img-flex push" src="images/shrub-1.jpg" alt="" aria-details="grassy-shrubs">
               <div class="gutter-1-4" id="grassy-shrubs">
                 <h2 class="mega push-0">Grassy shrubs</h2>
                 <span>Grassy shrubs are pretty much grass, but I group them together in clumps so they look kinda like shrubs.</span>
               </div>
             </li>
             <li class="unit [ xs-1 s-1 m-1-2 l-1-3 ]">
-              <img class="img-flex push" src="images/shrub-2.jpg" alt="" aria-details="laurels">
+              <img class="img-flex push" src="images/shrub-2.jpg" alt="" aria-details="shrubs-with-laurels">
               <div class="gutter-1-4" id="shrubs-with-laurels">
                 <h2 class="mega push-0">Shrubs with laurels</h2>
                 <span>Shrubs with laurels have pretty little flowers that bloom sometime during the summer. They’re nice.</span>
               </div>
             </li>
             <li class="unit [ xs-1 s-1 m-1-2 l-1-3 ]">
-              <img class="img-flex push" src="images/shrub-3.jpg" alt="" aria-details="shrubbery">
+              <img class="img-flex push" src="images/shrub-3.jpg" alt="" aria-details="two-level-shrub">
               <div class="gutter-1-4" id="two-level-shrub">
                 <h2 class="mega push-0">Two-level shrubbery</h2>
                 <span>Two level shrubbery is where I put two shrubs at different heights, usually with a little path running down the middle.</span>
@@ -95,27 +95,27 @@
             <caption>Shrub Prices</caption>
             <thead>
               <tr>
-                <td>&nbsp;</td>
-                <td>Small</td>
-                <td>Medium</td>
-                <td>Large</td>
+                <th scope="col">&nbsp;</th>
+                <th scope="col">Small</th>
+                <th scope="col">Medium</th>
+                <th scope="col">Large</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>Grassy shrubs</td>
+                <th scope="row">Grassy shrubs</th>
                 <td>$10</td>
                 <td>$20</td>
                 <td>$30</td>
               </tr>
               <tr>
-                <td>Shrubs with laurels</td>
+                <th scope="row">Shrubs with laurels</th>
                 <td>$40</td>
                 <td>$70</td>
                 <td>$100</td>
               </tr>
               <tr>
-                <td>Two-level shrubbery</td>
+                <th scope="row">Two-level shrubbery</th>
                 <td>$50</td>
                 <td>$70</td>
                 <td>$90</td>
