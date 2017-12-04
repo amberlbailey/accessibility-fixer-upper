@@ -10,9 +10,14 @@ html {
   color: #113c00;
 }
 
+nav {
+  position: relative;
+  background-color: #113c00;
+  z-index: 2;
+}
+
 a {
   color: #568c36;
-  text-decoration: none;
 }
 
 a:hover {
@@ -44,7 +49,9 @@ a:hover {
   text-decoration: none;
 }
 
-.nav a:hover {
+.nav a:hover,
+.nav a:focus {
+  outline: 3px solid #000;
   background-color: #fff;
   color: #113c00;
 }
